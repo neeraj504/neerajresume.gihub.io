@@ -1,0 +1,552 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+article
+{
+    margin: 0 auto;
+}
+.navigation
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.navigation ul li 
+{
+    display: inline-block;    
+}
+.navigation ul li a
+{
+    text-decoration: none;
+    margin-right: 20px;
+    color: gray;
+    font-size: 20px;
+}
+.navigation ul li.active a
+{
+    color: green;
+}
+.designation h2
+{
+height: auto;
+color: #000000;
+font: normal normal bold 25px/1.4em poppins-semibold,poppins,sans-serif;
+}
+.desg
+{
+    color:inherit;
+    font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+
+.profile-card
+{
+    display: flex;
+}
+.profile-card-background
+{
+    width: 650px;
+    height: 700px;
+    background-color: #e3d0be;
+    position: relative;
+    /* z-index: -2; */
+}
+.profile-image
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(230, 218, 206, 1);
+    width: 340px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    left: -150px;
+    top: 100px;
+    /* z-index: -1; */
+}
+.profile-image img
+{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+padding-top: 30px
+}
+.profile-social-icon
+{
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+        display: flex;
+        align-items: flex-end;
+    
+}
+.profile-social-icon ul
+{
+    text-decoration: none;
+}
+.profile-social-icon ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 50px;
+}
+.profile-social-icon ul li img
+{
+    width: 20px;
+    height: 20px;
+}
+.profile-bio
+{
+    margin-top: 150px;
+    width: 400px;
+    /* position: relative; */
+    left: -100px;
+}
+.profile-bio h1
+{
+    font-size: 100px;
+    margin: 0 auto;
+}
+.profile-bio h3
+{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.profile-bio p
+{
+    overflow-wrap: break-word;
+    word-spacing: 1vh;
+    line-height: 1.5em;
+}
+.btn1, .btn2
+{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.btn1
+{
+    text-decoration: none;
+    padding: 8px 30px;
+    border: 1px solid blue;
+    background-color: rgba(0, 80, 255, 1);
+    color: white;
+    border-radius: 40px;
+    margin: 5px;
+}
+.btn1:hover
+{
+    border: 2px solid blue;
+    background-color: transparent;
+    color: black;
+}
+.btn2
+{
+    text-decoration: none;
+    padding: 8px 30px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 40px;
+    margin: 5px;
+}
+.btn2:hover
+{
+    border: 2px solid blue;
+    background-color: rgba(0, 80, 255, 1);
+    color: white;
+}
+
+footer
+{
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.f1
+{
+    float: left;
+    margin: 20px 40px;
+}
+.footer_right
+{
+    display: flex;
+}
+.f2, .f3, .f4
+{
+    justify-content: center;
+    text-align: center;
+    margin: 20px 40px;
+    
+}
+.f4 ul
+{
+    text-decoration: none;
+}
+.f4 ul li
+{
+    list-style-type: none;
+    display: inline-block;
+}
+.f4 ul li img
+{
+width: 15px;
+height: 15px;
+}
+
+
+
+
+
+/* Resume Css */
+#resume
+{
+    background-color: rgba(230, 218, 206, 1);
+    /* text-align: center; */
+    padding: 50px 0px;
+    align-content: center;
+}
+#resume h1
+{
+    text-align: center;
+    font-size: 40px;
+}
+.resume-heading
+{
+    width: 730px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.resume-heading a
+{
+   text-decoration: none;
+   margin:20px;
+}
+.resume-heading .cv-button
+{
+    border-radius: 25px;
+    padding: 10px 25px;
+    height: 20px;
+    background-color: rgba(0, 80, 255, 1);
+    box-shadow: -11.31px 11.31px 25px 0px rgba(138,131,124,0.23);
+    border: solid transparent 2px;
+    color: #fff;
+    cursor: pointer !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+.resume-box
+{
+    width: 724px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    padding: 80px 10px;
+    background-color: #fff;
+}
+.resume-box .bio
+{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.year p
+{
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.job-year
+{
+    font: normal normal bold 25px/1.4em poppins-semibold,poppins,sans-serif;
+    color: #0050FF;
+}
+
+.font1
+{
+    font: normal normal bold 17px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
+    color: #000000;
+}
+.font2
+{
+    /* font: normal normal normal 12px/1.4em avenir-lt-w01_35-light1475496,sans-serif; */
+    font-size: 13px;
+    font-family: sans-serif;
+    padding: 10px 0px;
+    color: #000000;
+}
+.professional h2
+{
+    margin-left: 100px;
+}
+.professional
+{
+    width: 724px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    padding: 50px 10px;
+    background-color: #fff;
+}
+.professional ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 80px;
+    width: 160px;
+}
+.professional ul li::before
+{
+    
+    content: '■';
+  color: blue;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  font-size: 20px;
+}
+
+
+
+/* Project page css */
+#project
+{
+    background-color: rgba(230, 218, 206, 1);
+    padding: 50px 0px;
+    align-content: center;
+}
+.project-name
+{
+    width: 724px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    background-color: #fff;
+}
+#project h1
+{
+    text-align: center;
+    width: 730px;
+    margin: 10px auto;
+    
+}
+.project-name
+{
+    display: flex;
+    justify-content: space-between;
+}
+.project-detail
+{
+    padding: 50px 20px;
+}
+.project-para
+{
+    width: 750px;
+    margin: 0 auto;
+}
+.project-about
+{
+    width: 350px;
+    padding-top: 50px;
+}
+.project-image img
+{
+    width: 322px;
+    object-fit: cover;
+    height: 100%;
+}
+.project-detail p
+{
+    margin: 0;
+    line-height: normal;
+}
+.font3
+{
+    font: normal normal bold 20px/1.4em poppins-semibold,poppins,sans-serif;
+    color: #0050FF;
+}
+.font4
+{
+    font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    color: #000000;
+}
+
+
+
+/* contact Us css */
+#contact
+{
+    background-color: rgba(230, 218, 206, 1);
+    padding: 50px 0px;
+    align-content: center;
+    
+}
+
+#contact h1
+{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+form
+{
+    margin: 0 auto;
+    width: 750px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #fff;
+}
+.form-data
+{
+    position: relative;
+    left: 30px;
+    margin-top: 30px;
+    display: flex;
+}
+.form-name
+{
+    width: 300px;
+    height: 70px;
+    position: relative;
+    left: 30px;
+    margin: 10px 0px 0px 0px;
+}
+.form-name label
+{
+    padding: 0px 40px 0px 0px;
+    display: inline-block;
+    margin-bottom: 9px;
+    text-align: left;    
+}
+.form-name span
+{
+   color:blue;  
+}
+.form-name input
+{
+    padding-left: 15px;
+    padding-top: 15px;
+    border-width: 0px 0px 1px 0px;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-color: rgba(255, 64, 64, 1);
+    width: 250px;
+}
+.form-data input,textarea:focus
+{
+    outline:none;
+}
+.form-email
+{
+    width: 300px;
+    height: 70px;
+    position: relative;
+    left: 100px;
+    margin: 10px 0px 0px 0px;
+}
+.form-email label
+{
+    padding: 0px 40px 0px 0px;
+    display: inline-block;
+    margin-bottom: 9px;
+    text-align: left;
+}
+.form-email span
+{
+   color:blue;  
+}
+.form-email input
+{
+    padding-left: 15px;
+    padding-top: 15px;
+    border-width: 0px 0px 1px 0px;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-color: rgba(255, 64, 64, 1);
+    width: 250px;
+}
+.form-subject
+{
+    width: 600px;
+    height: 70px;
+    position: relative;
+    left: 30px;
+    margin-bottom: 20px;
+}
+.form-subject label
+{
+    padding: 0px 20px 0px 0px;
+    display: inline-block;
+    margin-bottom: 9px;
+    text-align: left;
+}
+.form-subject input
+{
+    padding-left: 15px;
+    padding-top: 15px;
+    border-width: 0px 0px 1px 0px;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-color: rgba(255, 64, 64, 1);
+    width: 620px;
+}
+.form-message
+{
+    width: 600px;
+    height: 130px;
+    position: relative;
+    left: 30px;
+    margin-bottom: 20px;
+}
+.form-message label
+{
+    padding: 0px 20px 0px 0px;
+    display: inline-block;
+    margin-bottom: 9px;
+    text-align: left;
+}
+.form-message textarea
+{
+    padding-left: 15px;
+    padding-top: 15px;
+    border-width: 0px 0px 1px 0px;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-color: rgba(255, 64, 64, 1);
+    width: 620px;
+    height: 50px;
+}
+.form-button
+{
+    width: 700px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+.form-button button
+{
+    padding: 10px 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(0 80 255);
+    color: #fff;
+}
